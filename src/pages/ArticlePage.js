@@ -1,5 +1,6 @@
 import React from 'react';
 import articleContent from './article-content';
+import ArticlesList from '../components/ArticlesList';
 
 const ArticlePage = ({ match }) => {
     const name = match.params.name;
@@ -10,6 +11,8 @@ const ArticlePage = ({ match }) => {
             {article.content.map((paragraph, key) => (
                 <p key={key}>{paragraph}</p>
             ))}
+            <h3>Other Articles:</h3>
+            <ArticlesList />
         </>
     );
 }
