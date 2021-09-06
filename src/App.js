@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <div className="App">
+      <div id="page-body">
         <Route path="/" component={HomePage} exact />
         <Route path="/about" component={AboutPage} />
         <Route path="/articles-list" component={ArticlesListPage} />
