@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ArticlesList = () => (
+const ArticlesList = ({ articles }) => (
     <>
     </>
 );
