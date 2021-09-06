@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Route path="/" component={HomePage} />
+        <Route path="/" component={HomePage} exact />
       </div>
     </Router>
   );
