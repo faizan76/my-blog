@@ -5,3 +5,6 @@ npx create-react-app my-blog --use-npm
 ```console
 install --save react-router-dom
 ```
+```console
+npm run build
+```
