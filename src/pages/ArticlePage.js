@@ -14,6 +14,7 @@ const ArticlePage = ({ match }) => {
     return (
         <>
             <h1>{article.title}</h1>
+            <p>This post as been upvoted {articleInfo.upvotes} times</p>
             {article.content.map((paragraph, key) => (
                 <p key={key}>{paragraph}</p>
             ))}
