@@ -8,3 +8,4 @@ install --save react-router-dom
 ```console
 npm run build
 ```
+#remove and generate build again
