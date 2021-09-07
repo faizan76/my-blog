@@ -11,7 +11,7 @@ const ArticlePage = ({ match }) => {
 
     useEffect(() => {
         setArticleInfo({ upvotes: 3 });
-    });
+    }, []);
 
     if (!article) return <NotFoundPage />
     const otherArticles = articleContent.filter(article => article.name !== name);
