@@ -16,7 +16,6 @@ const ArticlePage = ({ match }) => {
             setArticleInfo(body);
         }
         fetchData();
-        setArticleInfo({ upvotes: Math.ceil(Math.random() * 10) });
     }, [name]);
 
     if (!article) return <NotFoundPage />
