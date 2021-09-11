@@ -18,12 +18,12 @@ h3, h4 {
 }
 
 nav {
-  border-bottom: 4px solid black;
+  border-bottom: 1px solid #e7e7e7;
   text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  background: #f3f3f3;
 }
 
 nav ul {
@@ -40,14 +40,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #666;
   font-weight: bold;
   padding: 16px 32px;
 }
 
 nav a:hover {
-  background: black;
-  color: white;
+  background: #ddd;
 }
 
 #page-body {
